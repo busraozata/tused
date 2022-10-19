@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Tused Vakfı</title>
+</head>
+
+<body>
+    <div class="top-header d-lg-flex d-none align-items-center">
+        <div class="container">
+            <div class="content d-flex justify-content-between">
+                <div class="left-area">
+                    <ul class="list d-flex align-items-center">
+                        <li><a href="memberlogin.html"><i class="fas fa-angle-right"></i>Üye Girişi</a></li>
+                        <li><a href="contact.html"><i class="fas fa-angle-right"></i>İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="right-area">
+                    <ul class="contact-list d-flex">
+                        <li class="nav-item">
+                            <a href="mailto:info@tusedvakfi.com"><i class="far fa-envelope text-4 text-color-primary" style="top: 1px;"></i>info@tusedvakfi.com</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="tel:+90 533 925 55 07"><i class="fab fa-whatsapp text-4 text-color-primary" style="top: 0;"></i>+90 533 925 55 07</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="header d-flex justify-content-center align-items-center">
+        <div class="header-inner w-100">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg d-flex justify-content-between align-items-center">
+                    <a class="navbar-brand" href="index.html">
+                        <img class="img-fluid" src="./img/logo.jpg" alt="" />
+                    </a>
+
+                    <div class="wrapper d-xl-none d-block">
+                        <button role="button" class="menu-toggle">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                    </div>
+
+                    <div class="menu-area">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">ANA SAYFA</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown" data-bs-auto-close="outside">KURUMSAL</a>
+                                    <div class="dropdown-menu first-dropdown-menu shadow">
+                                        <ul class="">
+                                            <li><a class="dropdown-item" href="about.html">Hakkımızda</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="board-of-directors.html">Yönetim Kurulu</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="services.html" data-bs-toggle="dropdown" data-bs-auto-close="outside">MEZUNLAR</a>
+                                    <div class="dropdown-menu first-dropdown-menu shadow">
+                                        <ul class="">
+                                            <li><a class="dropdown-item" href="graduates.html">Mezun Başarıları</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="job-postings.html">İş İlanları</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="services.html" data-bs-toggle="dropdown" data-bs-auto-close="outside">BURS FONU</a>
+                                    <div class="dropdown-menu first-dropdown-menu shadow">
+                                        <ul class="">
+                                            <li><a class="dropdown-item" href="general-information.html">Genel Bilgiler</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="donation-channels.html">Bağış Kanalları</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="scholarship-application.html">Burs Başvurusu</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="services.html" data-bs-toggle="dropdown" data-bs-auto-close="outside">MEZUN VE ÜYE</a>
+                                    <div class="dropdown-menu first-dropdown-menu shadow">
+                                        <ul class="">
+                                            <li><a class="dropdown-item" href="memberlogin.html">Üye Girişi</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="memberlogin.html">Üye Başvurusu</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="services.html" data-bs-toggle="dropdown" data-bs-auto-close="outside">ETKİNLİKLER</a>
+                                    <div class="dropdown-menu first-dropdown-menu shadow">
+                                        <ul class="">
+                                            <li><a class="dropdown-item" href="events.html">Etkinlik Galeri</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">Etkinlik Arşivi</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="services.html" data-bs-toggle="dropdown" data-bs-auto-close="outside">HABERLER</a>
+                                    <div class="dropdown-menu first-dropdown-menu shadow">
+                                        <ul class="">
+                                            <li><a class="dropdown-item" href="news.html">Haberler</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="articles.html">Yazılar</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="announcements.html">Duyurular</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </li>
+                            </ul>
+                            <ul class="header-social-icons social-icons d-flex">
+                                <li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                                <li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="sub-banner d-flex justify-content-center align-items-center" style="background: url(./img/slider-2.jpg) no-repeat; background-size: cover; background-position: top;">
+        <div class="container">
+            <div class="row align-items-center text-center">
+
+                <div class="col-md-12 align-self-center">
+                    <ul class="d-flex align-items-center justify-content-center links">
+                        <li><a href="#">Yazılar</a><i class="fa-solid fa-chevron-right"></i></li>
+                        <li><a href="#" class="active">Haberler</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-12 text-center">
+                    <h1>Yazılar</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="articles">
+        <div class="events-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-md-6 mb-4">
+                        <a href="">
+                            <div class="box">
+                                <div class="img-wrapper">
+                                    <img src="./img/fc42238d_Ekran Resmi 2020-12-04 16.07.53.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="text">
+                                    <div>
+                                        <span>ZİYARET</span>
+                                    </div>
+                                    <h4>Prof.Dr.Musa Yıldız'ı Ziyaret Ettik</h4>
+                                    <div class="content">
+                                        <p>
+                                            Mütevelli Heyeti olarak hemşehrimiz Gazi Üniversitesi Rektörü Prof.Dr.Musa Yıldız’a hayırlı olsun ziyaretinde bulunduk.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-4 col-md-6 mb-4">
+                        <a href="">
+                            <div class="box">
+                                <div class="img-wrapper">
+                                    <img src="./img/5fef2520_DSC_7765_30112018113830.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="text">
+                                    <div>
+                                        <span>Gündem</span>
+                                    </div>
+                                    <h4>Prof. Dr. Sedat MURAT </h4>
+                                    <div class="content">
+                                        <p>
+
+                                            Değişik toplum katmanlarının sosyal, ekonomik, siyasal, kültürel vb. amaçlarla bir araya gelip güçlerini birleştirerek oluşturmuş oldukları sivil toplum örgütlerinin önemi her geçen gün daha da artmaktadırlar.
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-ribbon">
+                <span>Tused İletişim</span>
+            </div>
+            <div class="row py-5 my-4">
+                <div class="col-xl-6 mb-4 mb-lg-0">
+                    <a href="index.html" class="logo pr-0 pr-lg-3">
+                        <img alt="Porto Website Template" src="./img/footer-logo.png" height="33">
+                    </a>
+                    <p class="mt-2 mb-2">Faaliyetleri öğrenci merkezli olan derneğimiz; öğrencilerin derslerinde, iş ve sosyal hayatlarında başarılı olmaları için çeşitli etkinlikler yapmakta ve aynı zamanda çeşitli olanaklar sunmaktadır.</p>
+                    <p class="mb-0"><a href="#" class="btn-flat btn-xs text-color-light"><strong class="text-2">Detaylı Bilgi</strong><i class="fas fa-angle-right p-relative top-1 pl-2"></i></a></p>
+                </div>
+                <div class="col-xl-6">
+                    <h5 class="text-3 mb-3">İletişim</h5>
+                    <div class="row">
+                        <div class="col-xl-6">
+                            <ul class="list list-icons list-icons-lg">
+                                <li class="mb-1"><i class="far fa-dot-circle"></i>
+                                    <p class="m-0">Alemdar Mahallesi Yerebatan Caddesi No:35 Sultanahmet/İstanbul</p>
+                                </li>
+                                <li class="mb-1"><i class="fab fa-whatsapp"></i>
+                                    <p class="m-0"><a href="tel:+905369389496">(+90) 536 938 94 96</a></p>
+                                </li>
+                                <li class="mb-1"><i class="far fa-envelope"></i>
+                                    <p class="m-0"><a href="mailto:trabzonunider@gmail.com">trabzonunider@gmail.com</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-6">
+                            <ul class="list fast-link">
+                                <li><i class="fas fa-angle-right"></i><a href="">Üye Girişi</a></li>
+                                <li><i class="fas fa-angle-right"></i><a href="">Kayıt Ol</a></li>
+                                <li><i class="fas fa-angle-right"></i><a href="">İletişim</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright footer-copyright-style-2">
+            <div class="container py-2">
+                <div class="row py-4">
+                    <div class="col d-flex align-items-center justify-content-center">
+                        <p>© Tused Vakfı | Tüm Hakları Saklıdır 2020.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
